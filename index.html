@@ -6,22 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function toogleNav() {
+            document.getElementById('navbar').classList.toggle("hide");
+        }
+    </script>
 </head>
 
 <body>
     <div class="header">
-        <div class="logo">
-            <div class="iitr-logo">
-
-                <img src="https://cmsredesign.channeli.in/library/assets/images/iitrLogo.png" alt="iitr logo"
-                    width="100%">
+        <div class="top-header">
+            <div id="hamburger" onclick="toogleNav();">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-            <div class="g20-logo">
-                <img src="https://cmsredesign.channeli.in/library/assets/images/g20-logo.png" alt="" width="100%">
+            <div class="logo">
+                <div class="iitr-logo">
+
+                    <img src="https://cmsredesign.channeli.in/library/assets/images/iitrLogo.png" alt="iitr logo"
+                        width="100%">
+                </div>
+                <div class="g20-logo">
+                    <img src="https://cmsredesign.channeli.in/library/assets/images/g20-logo.png" alt="" width="100%">
+                </div>
             </div>
         </div>
         <hr>
-        <nav>
+        <nav id="navbar" class="hide">
             <div class="nav-item"><a class="active" href="#">
                     Institute
                     <img src="https://cmsredesign.channeli.in/library/assets/icons/dropdown.svg" width="11" height="6">
@@ -82,22 +95,61 @@
         <h1>DESIGNERS</h1>
         <div class="content-item">
             <div class="element">
-                <img src="assets/image 16.png">
-                <b class="name">GAURI GARG</b>
+                <img src="assets/image 9.png" height="346">
+                <b class="name">RISHIRAJ SHRIVASTAV</b>
                 <div class="designation">Project Head, III year</div>
             </div>
             <div class="element">
-                <img src="assets/image 16.png">
-                <b class="name">GAURI GARG</b>
+                <img src="assets/image 12.png" height="346">
+                <b class="name">ANSHIKA ARORA</b>
                 <div class="designation">Project Head, III year</div>
             </div>
             <div class="element">
-                <img src="assets/image 16.png">
+                <img src="assets/image 15.png" height="346">
                 <b class="name">GAURI GARG</b>
                 <div class="designation">Project Head, III year</div>
             </div>
             <div class="strip"></div>
 
+        </div>
+    </div>
+    <div class="content-box">
+        <h1>DESIGNERS</h1>
+        <div class="content-item">
+            <div class="element">
+                <img src="assets/image 2.png" height="346">
+                <b class="name">SAMRAT MIDDHA</b>
+                <div class="designation">Project Head, III year</div>
+            </div>
+            <div class="element">
+                <img src="assets/image 5.png" height="346">
+                <b class="name">AKHIL PUNIA</b>
+                <div class="designation">Project Head, III year</div>
+            </div>
+            <div class="element">
+                <img src="assets/image 8.png" height="346">
+                <b class="name">NOBLE MITTAL</b>
+                <div class="designation">Project Head, III year</div>
+            </div>
+            <div class="strip"></div>
+        </div>
+        <div class="content-item">
+            <div class="element">
+                <img src="assets/image 2.png" height="346">
+                <b class="name">SAMRAT MIDDHA</b>
+                <div class="designation">Project Head, III year</div>
+            </div>
+            <div class="element">
+                <img src="assets/image 5.png" height="346">
+                <b class="name">AKHIL PUNIA</b>
+                <div class="designation">Project Head, III year</div>
+            </div>
+            <div class="element">
+                <img src="assets/image 8.png" height="346">
+                <b class="name">NOBLE MITTAL</b>
+                <div class="designation">Project Head, III year</div>
+            </div>
+            <div class="strip"></div>
         </div>
     </div>
     <div class="footer">
@@ -114,17 +166,6 @@
             <p><a href="mailto:iitrconnect@iitr.ac.in"><img src="assets/Vector-3.svg" alt="email">
                     iitrconnect@iitr.ac.in</a></p>
             </p>
-            <p>
-                <img class="ui icon icon_image" data-icon="facebook_logo"
-                    src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg">
-                <img class="ui icon icon_image" data-icon="facebook_logo"
-                    src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg">
-                <img class="ui icon icon_image" data-icon="facebook_logo"
-                    src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg">
-                <img class="ui icon icon_image" data-icon="facebook_logo"
-                    src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg">
-            </p>
-
         </div>
         <div>
             <p><b>Explore</b></p>
@@ -152,6 +193,7 @@
             Made with love by img
         </div>
     </div>
+
 </body>
 
 </html>
