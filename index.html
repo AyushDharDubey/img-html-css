@@ -12,28 +12,64 @@
             document.getElementById('navbar').classList.toggle("hide");
         }
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="header">
         <div class="top-header">
-            <div id="hamburger" onclick="toogleNav();">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <div class="logo">
+            <div class="left-header">
+                <div id="hamburger" onclick="toogleNav();">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
                 <div class="iitr-logo">
-
                     <img src="https://cmsredesign.channeli.in/library/assets/images/iitrLogo.png" alt="iitr logo"
                         width="100%">
                 </div>
-                <div class="g20-logo">
-                    <img src="https://cmsredesign.channeli.in/library/assets/images/g20-logo.png" alt="" width="100%">
-                </div>
             </div>
+            <table class="accessibilities">
+                <tr>
+                    <td class="language">
+                        <a>हिन्दी</a>
+                        │<a>Eng</a>
+                    </td>
+                    <td class="sizechange">
+                        <span class="small">
+                            <img class="ui icon icon_image" data-icon="text_small"
+                                src="https://cmsredesign.channeli.in/library/assets/icons/text-small.svg">
+                        </span>
+                        <span class="medium">
+                            <img class="ui icon icon_image" data-icon="text_medium"
+                                src="https://cmsredesign.channeli.in/library/assets/icons/text-medium.svg">
+                        </span>
+                        <span class="big">
+                            <img class="ui icon icon_image" data-icon="text_big"
+                                src="https://cmsredesign.channeli.in/library/assets/icons/text-big.svg">
+                        </span>
+                    </td>
+                    <td class="theme">
+                        <span class="light-button">A</span>
+                        <span class="dark-button">A</span>
+                    </td>
+                    <td><img class="search" src="https://cmsredesign.channeli.in/library/assets/icons/search.svg"></td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="calendar">CALENDAR</a></td>
+                    <td><a href="#" class="contact-us">CONTACT US</a></td>
+                    <td><a href="#" class="directory">DIRECTORY</a></td>
+                </tr>
+            </table>
+
+
+
+
         </div>
-        <hr>
         <nav id="navbar" class="hide">
             <div class="nav-item"><a class="active" href="#">
                     Institute
@@ -74,13 +110,19 @@
         </nav>
     </div>
 
+    </div>
+
     <div class="title-box">
         <div class="strip">
-            <div class="location">
-                Home > Team
+            <div class="path">
+                <strong>HOME > </strong> <span style="font-weight: 350;">TEAM</span>
             </div>
-            <h1>Meet the Team</h1>
-            Get to know the developers and designers behind the website!
+            <p>
+            <h1>MEET THE TEAM</h1>
+            </p>
+            <p>
+                Get to know the developers and designers behind the website!
+            </p>
         </div>
         <div class="strip">
             Building technology infrastructure for the campus requires the collaborative efforts of a diverse team with
@@ -98,64 +140,110 @@
                 <img src="assets/image 9.png" height="346">
                 <b class="name">RISHIRAJ SHRIVASTAV</b>
                 <div class="designation">Project Head, III year</div>
+                <div class="social">
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                </div>
             </div>
             <div class="element">
                 <img src="assets/image 12.png" height="346">
                 <b class="name">ANSHIKA ARORA</b>
                 <div class="designation">Project Head, III year</div>
+                <div class="social">
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                </div>
             </div>
             <div class="element">
                 <img src="assets/image 15.png" height="346">
                 <b class="name">GAURI GARG</b>
                 <div class="designation">Project Head, III year</div>
+                <div class="social">
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                </div>
             </div>
-            <div class="strip"></div>
 
         </div>
     </div>
     <div class="content-box">
-        <h1>DESIGNERS</h1>
+        <h1>DEVELOPERS</h1>
         <div class="content-item">
             <div class="element">
                 <img src="assets/image 2.png" height="346">
                 <b class="name">SAMRAT MIDDHA</b>
                 <div class="designation">Project Head, III year</div>
+                <div class="social">
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                </div>
             </div>
             <div class="element">
                 <img src="assets/image 5.png" height="346">
                 <b class="name">AKHIL PUNIA</b>
                 <div class="designation">Project Head, III year</div>
+                <div class="social">
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                </div>
             </div>
             <div class="element">
                 <img src="assets/image 8.png" height="346">
                 <b class="name">NOBLE MITTAL</b>
                 <div class="designation">Project Head, III year</div>
+                <div class="social">
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                </div>
             </div>
-            <div class="strip"></div>
         </div>
         <div class="content-item">
             <div class="element">
                 <img src="assets/image 2.png" height="346">
                 <b class="name">SAMRAT MIDDHA</b>
                 <div class="designation">Project Head, III year</div>
+                <div class="social">
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                </div>
             </div>
             <div class="element">
                 <img src="assets/image 5.png" height="346">
                 <b class="name">AKHIL PUNIA</b>
                 <div class="designation">Project Head, III year</div>
+                <div class="social">
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                </div>
             </div>
             <div class="element">
                 <img src="assets/image 8.png" height="346">
                 <b class="name">NOBLE MITTAL</b>
                 <div class="designation">Project Head, III year</div>
+                <div class="social">
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                    <a href="#"><img src="https://cmsredesign.channeli.in/library/assets/icons/facebook-logo.svg"></a>
+                </div>
             </div>
-            <div class="strip"></div>
         </div>
     </div>
     <div class="footer">
-        <div class="address">
+        <div class="footer-left">
             <p class="title">Department of Chemical Engineering<br />IIT Roorkee</p>
-            <img src="https://cmsredesign.channeli.in/library/assets/images/IITR175.png" class="info-logo">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3459.9790159936674!2d77.8942696!3d29.864879!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3650bfe37a7%3A0xa9d19b15af050467!2sIndian%20Institute%20Of%20Technology%E2%80%93Roorkee%20(IIT%E2%80%93Roorkee)!5e0!3m2!1sen!2sin!4v1673958719722!5m2!1sen!2sin"
+                title="New Delhi to Roorkee Uttarakhand">
+
+            </iframe>
             <p>
                 Contact us -
 
@@ -167,30 +255,37 @@
                     iitrconnect@iitr.ac.in</a></p>
             </p>
         </div>
-        <div>
-            <p><b>Explore</b></p>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
+        <div class="footer-mid">
+            <div class="explore">
+                <p><b>Explore</b></p>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+            </div>
+            <div class="qa">
+                <p><b>Quick Actions</b></p>
+                <div>Apply Online</div>
+                <div>Donate</div>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+                <div>Departments</div>
+            </div>
         </div>
-        <div>
-            <p><b>Quick Actions</b></p>
-            <div>Apply Online</div>
-            <div>Donate</div>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
-            <div>Departments</div>
-        </div>
-        <div>
-            Made with love by img
+        <div class="footer-right">
+            <img src="https://iitr.ac.in/Departments/assets/274897360371d52c0d6f5e7dcc285f914c51a39bb714f51a7a547433b143c151_top6.jpg"
+                width="272">
+            <div><img src="assets/Vector-5.svg" width="24"> Download Brochure</div>
+            <div>Photo Credits: Photography Club, IITR</div>
+            <div>Made with <img src="assets/Vector-4.svg" width="20" alt=""> by :</div>
+            <div>Information Management Group, IITR</div>
         </div>
     </div>
 
