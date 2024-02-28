@@ -131,12 +131,18 @@ a {
 
 .content-item {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 276px);
-    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(276px, auto));
+    /* justify-content: space-around; */
+    gap:0;
+    width:auto;
     position: relative;
 }
 
-.content-item::before {
+.element{
+    position: relative;
+}
+
+.element::before {
     background-color: rgba(0, 103, 179, 0.8);
     color: white;
     position: absolute;
