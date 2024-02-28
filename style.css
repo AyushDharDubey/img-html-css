@@ -222,14 +222,20 @@ a {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1039px) and (max-width:1224px) {
+    nav {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-width: 1039px) {
 
     #hamburger {
         display: none;
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1038px) {
     .footer {
         display: block;
     }
