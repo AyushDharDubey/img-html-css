@@ -134,7 +134,7 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(276px, auto));
     /* justify-content: space-around; */
     gap:0;
-    width:auto;
+    /* width:auto; */
     position: relative;
 }
 
