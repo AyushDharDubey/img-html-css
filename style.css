@@ -112,7 +112,7 @@ a {
 
 .content-box h1 {
     color: dimgrey;
-    padding: 4rem 6rem 4rem 6rem;
+    padding: 3vw 7vw;
 }
 
 .content-box img {
@@ -187,13 +187,13 @@ a {
 
 .top-footer {
     display: flex;
-    padding: 4rem;
+    padding: 4vw;
     justify-content: space-between;
 }
 
 .top-footer .footer-mid {
     display: flex;
-    gap: 10rem;
+    gap: 10vw;
     justify-content: space-evenly;
 }
 
@@ -205,21 +205,21 @@ a {
 
 .bottom-footer {
     background-color: #E7E7E7;
-    padding: 0.5rem;
+    padding: 0.5vw;
     display: flex;
     justify-content: space-evenly;
-    gap: 1rem;
+    gap: 1vw;
 }
 
 .bottom-footer .footer-left {
-    gap: 1rem;
+    gap: 1vw;
     display: flex;
 }
 
 .footer .copyright {
     background-color: #232323;
-    color:#EEEEEE;
-    padding:0.5rem;
+    color: #EEEEEE;
+    padding: 0.5vw;
     text-align: center;
 }
 
