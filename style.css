@@ -197,10 +197,18 @@ a {
     justify-content: space-evenly;
 }
 
+.top-footer .footer-mid>*,
+.top-footer .footer-left,
+.top-footer .footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
 .top-footer .footer-left>*,
 .top-footer .footer-right>* {
     padding: 2px;
-
 }
 
 .bottom-footer {
